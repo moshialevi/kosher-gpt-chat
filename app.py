@@ -4,10 +4,9 @@ import os
 import re
 import json
 from typing import List, Dict, Any
-from dotenv import load_dotenv
 
-# טעינת משתני הסביבה מקובץ .env
-load_dotenv()
+# הערה: ב-Render.com משתני הסביבה מוגדרים ישירות בפלטפורמה
+# אין צורך ב-load_dotenv()
 
 app = Flask(__name__)
 
